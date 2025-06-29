@@ -12,5 +12,5 @@ class Selection extends Model
     protected $table = 'selections';
 
     // Define which fields are mass assignable
-    protected $fillable = ['selection', 'date'];
+    protected $fillable = ['selection', 'date','post_id'];
 }

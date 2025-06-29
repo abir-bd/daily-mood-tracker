@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('selections', function (Blueprint $table) {
             $table->id();
+            $table->integer('post_id');
             $table->string('selection'); // For storing radio button value (happy, sad, angry)
             $table->date('date'); // For storing the current date
             $table->timestamps();

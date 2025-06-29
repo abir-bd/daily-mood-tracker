@@ -14,3 +14,16 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 // submit mood form
 Route::post('/submit-selection', [SelectionController::class, 'submitForm'])->name('submit.selection');
+
+// view data
+Route::get('/home', [SelectionController::class, 'viewSelections'])->name('view.selections');
+
+
+// edit data
+Route::get('/selection/{id}/edit', [SelectionController::class, 'edit'])->name('selection.edit');
+Route::put('/selection/{id}', [SelectionController::class, 'update'])->name('selection.update');
+
+
+// de;ete
+
+Route::delete('/selection/{id}', [SelectionController::class, 'destroy'])->name('selection.delete');
