@@ -1,5 +1,5 @@
 # App Name
-
+# Daily Mood Tracker Web App
 ## Feature Summary
 
 - **User Authentication**: Secure login and registration process to keep your data safe.
