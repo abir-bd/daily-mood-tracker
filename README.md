@@ -17,11 +17,13 @@ Follow these steps to set up the app locally:
 ### 1. **Clone the Repository**  
 Clone the project repository to your local machine using:
 
-```bash
+
 git clone https://github.com/abir-bd/daily-mood-tracker.git
 
 
 2. Install Dependencies
+
+
 Run the following command to install all required dependencies:
 
 npm install  # or composer install if using PHP
